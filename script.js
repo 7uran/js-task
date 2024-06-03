@@ -21,7 +21,7 @@
 let a = 100;
 if (a % 33 > 30) {
     if ((a % 33) % 14 > 10) {
-        print(((a % 33) % 14) % 5)
+        console.log(((a % 33) % 14) % 5)
     }
 }
 
@@ -30,14 +30,14 @@ let en = prompt()
 let uzunlug = prompt()
 
 if (en > 10 && uzunlug > 10) {
-    print(en*uzunlug)
+    console.log(en*uzunlug)
 }
 else{
-    print(2*(en+uzunlug))
+    console.log(2*(en+uzunlug))
 }
 
 //task 3
 let sahe=prompt()
 if (sahe>25) {
-    print(sahe/12)
+    console.log(sahe/12)
 }
